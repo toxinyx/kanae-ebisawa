@@ -19,10 +19,17 @@
 .titlecard {
   background: -webkit-linear-gradient(-30deg, #decfb7 50%, #c9aa78 50%);
   padding: 10px 10px 10px 10px;
+    text-align: center;
 }
 
 .titlecard-title {
-    margin-left: -700px;
-    margin-top: 60px;
+    margin-left: -900px;
+    margin-top: -30px;
     font-family: "ithorntregular", serif;
+    font-size: 100px;
+}
+
+.titlecard-hookline {
+    margin-left: -790px;
+    margin-top: -118px;
 }
