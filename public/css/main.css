@@ -23,13 +23,18 @@
 }
 
 .titlecard-title {
-    margin-left: -900px;
+    margin-left: -880px;
     margin-top: 100px;
     font-family: "ithorntregular", serif;
     font-size: 100px;
 }
 
 .titlecard-hookline {
-    margin-left: -790px;
+    margin-left: -870px;
     margin-top: -118px;
+}
+
+.main-nav {
+    width: 300px;
+    margin-left: 130px;
 }
