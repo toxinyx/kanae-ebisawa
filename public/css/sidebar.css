@@ -1,4 +1,4 @@
-.divider-text {
+.divider-text, .divider-text2 {
     margin-left: -10%;
     margin-bottom: -5px;
 }
@@ -13,7 +13,7 @@
 
 .sidebarnav {
     width: 30%;
-    margin-left: 66%;
+    margin-left: 68%;
     margin-top: -18%;
 }
 
@@ -48,6 +48,9 @@
     display: flex;
 }
 .world2 {
+    display: flex;
+}
+.culture1 {
     display: flex;
 }
 
