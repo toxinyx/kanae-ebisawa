@@ -32,28 +32,3 @@
     margin-top: -118px;
     margin-bottom: -1px;
 }
-
-.main-nav {
-    width: 300px;
-    margin-left: 130px;
-}
-.button1 {
-    height: 30px;
-    margin-left: 15%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, 50%);
-    background-color: #5e6545;
-    border: none;
-    color: white;
-    cursor: pointer;
-}
-.button2 {
-    height: 30px;
-    margin-left: 80%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    background-color: #5e6545;
-    border: none;
-    color: white;
-    cursor: pointer;
-}
