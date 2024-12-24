@@ -1,3 +1,14 @@
+/* fonts */
+@font-face {
+    font-family: 'ithorntregular';
+    src: url('ithornet-webfont.woff2') format('woff2'),
+         url('ithornet-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* yessir */
 .container {
   margin: auto;
     margin-top: 40px;
@@ -7,5 +18,6 @@
 }
 
 .titlecard {
-  background: -webkit-linear-gradient(-74deg, #decfb7 50%, #c9aa78 50%);
+  background: -webkit-linear-gradient(-30deg, #decfb7 50%, #c9aa78 50%);
+  padding: 10px 10px 10px 10px;
 }
