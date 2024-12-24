@@ -27,6 +27,7 @@
     border: none;
     color: white;
     cursor: pointer;
+    font-family: "heavitas", serif;
 }
 .button1:hover {
     background-color: #5E6545;
@@ -40,6 +41,7 @@
     border: none;
     color: white;
     cursor: pointer;
+    font-family: "heavitas", serif;
 }
 .button2:hover {
     background-color: #5E6545;
@@ -64,6 +66,7 @@
     background-color: #363237;
     padding: 10px;
     margin-top: 15px;
+    font-family: "heavitas", serif;
 }
 .button3:hover {
     background-color: #5E6545;
@@ -78,6 +81,7 @@
     background-color: #363237;
     padding: 10px;
     margin-top: 15px;
+    font-family: "heavitas", serif;
 }
 .dropbtn:hover, .dropbtn:focus {
   background-color: #5E6545;
