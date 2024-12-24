@@ -19,6 +19,9 @@
     color: white;
     cursor: pointer;
 }
+.button1:hover {
+    background-color: #5E6545;
+}
 .button2 {
     height: 30px;
     margin-left: 80%;
@@ -29,10 +32,73 @@
     color: white;
     cursor: pointer;
 }
+.button2:hover {
+    background-color: #5E6545;
+}
 
 .world1 {
     display: flex;
 }
 .world2 {
     display: flex;
+}
+
+.button3 {
+    font-family: "heavitas", serif;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #363237;
+    padding: 10px;
+    margin-top: 15px;
+}
+.button3:hover {
+    background-color: #5E6545;
+}
+
+.dropbtn {
+    font-family: "heavitas", serif;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #363237;
+    padding: 10px;
+    margin-top: 15px;
+}
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #5E6545;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+    position: relative;
+    top: 100%;
+    left: 50%;
+    width: fit-content;
+    transform: translateX(-50%);
+    background-color: #5E6545;
+    margin-top: -0.8%;
+    margin-left: 2.25%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: center;
+    font-family: "heavitas", serif;
+    font-size: 13px;
+    padding: 1px 15px 1px 15px;
+}
+.dropdown-content a {
+  color: #b6c7c4;
+    padding: 3px 1px;
+    text-decoration: none;
+    display: block;
+}
+.show {
+    display: block;
 }
