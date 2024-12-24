@@ -2,6 +2,13 @@
     width: 300px;
     margin-left: 130px;
 }
+
+.sidebarnav {
+    width: 30%;
+    margin-left: 65%;
+    margin-top: -18%;
+}
+
 .button1 {
     height: 30px;
     margin-left: 15%;
@@ -21,4 +28,11 @@
     border: none;
     color: white;
     cursor: pointer;
+}
+
+.world1 {
+    display: flex;
+}
+.world2 {
+    display: flex;
 }
