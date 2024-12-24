@@ -13,6 +13,13 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: '1942report';
+    src: url('1942-webfont.woff2') format('woff2'),
+         url('1942-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* yessir */
 .container {
