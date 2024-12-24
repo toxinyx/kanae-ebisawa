@@ -78,10 +78,9 @@
 .dropdown-content {
   display: none;
     position: relative;
-    top: 100%;
     left: 50%;
     width: fit-content;
-    transform: translateX(-50%);
+    transform: translateX(-52%);
     background-color: #5E6545;
     margin-top: -0.8%;
     margin-left: 2.25%;
