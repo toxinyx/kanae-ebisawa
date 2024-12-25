@@ -37,11 +37,9 @@
 
 /* yessir */
 .container {
-  margin: auto;
+    margin: auto;
     margin-top: 40px;
     width: 80%;
-    border: 2px solid #c48d2e;
-    box-shadow: 5px 10px 18px #000000;
 }
 
 .titlecard {
@@ -51,6 +49,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    border: 2px solid #c48d2e;
+    box-shadow: 5px 10px 18px #000000;
 }
 .titlecard-title {
     margin-left: -57%;
