@@ -2,9 +2,13 @@
     margin-left: -10%;
     margin-bottom: -5px;
     font-family: "1942report", serif;
+    font-weight: bold;
+    
 }
 .buttonencasing {
-    width: 30%;
+    width: 70%;
+    margin-left: -10px;
+    margin-right: -6px;
 }
 
 .main-nav {
@@ -14,7 +18,7 @@
 
 .sidebarnav {
     width: 30%;
-    margin-left: 68%;
+    margin-left: 63.5%;
     margin-top: -18%;
 }
 
