@@ -34,13 +34,14 @@
     color: white;
     cursor: pointer;
     font-family: "heavitas", serif;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .button1:hover {
     background-color: #5E6545;
 }
 .button2 {
     height: 30px;
-    margin-left: 80%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     background-color: #5e6545;
@@ -48,6 +49,9 @@
     color: white;
     cursor: pointer;
     font-family: "heavitas", serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 85%;
 }
 .button2:hover {
     background-color: #5E6545;
