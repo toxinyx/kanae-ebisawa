@@ -2,113 +2,34 @@
     <p class="divider-text">Heiwa's World</p>
     <div class="world1">
         <div class="buttonencasing">
-            <a href="/golden-fate/pages/archipelago.html">
-                <button class="button3">Archipelago</button>
+            <a href="/golden-fate/pages/theartist.html">
+                <button class="button3">About the Artist</button>
             </a>
         </div>
     
         <div class="buttonencasing">
-            <button onclick="myFunction(1)" class="dropbtn">Notable Locations</button>
-                <div id="myDropdown1" class="dropdown-content">
-                    <a href="imperialgardens.html">Public Gardens</a>
-                    <a href="suhaiforests.html">Suhai Forests</a>
-                </div>
+            <a href="/golden-fate/pages/gallery.html">
+            <button class="button3">Notable Locations</button>
+            </a>
         </div>
     
         <div class="buttonencasing">
-            <a href="calendar.html">
-                <button class="button3">Epoch Calendar</button>
+            <a href="/golden-fate/pages/tandc.html">
+                <button class="button3">Terms and Conditions</button>
             </a>
         </div>
     </div>
     <div class="world2">
         <div class="buttonencasing">
-            <button onclick="myFunction(2)" class="dropbtn">Species</button>
-                <div id="myDropdown2" class="dropdown-content">
-                    <a href="Humans.html">Humans</a>
-                    <a href="demonsonis.html">Demons/Onis</a>
-                    <a href="/golden-fate/pages/species/vampires.html">Vampires</a>
-                    <a href="elves.html">Elves</a>
-                    <a href="orcs.html">Orcs</a>
-                    <a href="dwarves.html">Dwarves</a>
-                    <a href="beastmen.html">Beastmen</a>
-                    <a href="nymphs.html">Nymphs</a>
-                    <a href="moonspirits.html"><strong>[CUSTOM]</strong> Moon Spirits</a>
-                    <a href="/golden-fate/pages/species/skulk.html"><strong>[CUSTOM]</strong> Skulk</a>
-                </div>
+            <a href="/golden-fate/pages/prices.html">
+                <button class="button3">Services & Prices</button>
+            </a>
         </div>
     
         <div class="buttonencasing">
-            <button onclick="myFunction(3)" class="dropbtn">Bestiary</button>
-                <div id="myDropdown3" class="dropdown-content">
-                    <a href="NA.html">TO BE ADDED</a>
-                </div>
+            <a href="/golden-fate/pages/contacts.html">
+                <button class="button3">Contacting Me</button>
+            </a>
         </div>
-        
-        <div class="buttonencasing">
-            <button onclick="myFunction(4)" class="dropbtn">Other Countries</button>
-                <div id="myDropdown4" class="dropdown-content">
-                    <a href="NA.html">TO BE ADDED</a>
-                </div>
-        </div>
-    </div>
-    
-    <p class="divider-text2">Culture</p>
-    <div class="culture1">
-        <div class="buttonencasing">
-            <button onclick="myFunction(5)" class="dropbtn">Holidays</button>
-                <div id="myDropdown5" class="dropdown-content">
-                    <a href="darkmoonfest.html">Darkmoon Festival</a>
-                    <a href="wintersolstice.html"><strong>雪の冬至</strong> Yuki no Tōji</a>
-                    <a href="autumnsolstice.html"><strong>秋の光</strong> Aki no Hikari</a>
-                    <a href="summersolstice.html"><strong>太陽の精霊</strong> Taiyō no Seirei</a>
-                    <a href="torroavos.html"><strong>花の夜</strong> Hana no Yoru</a>
-                    <a href="isaiwen.html"><strong>彗星</strong> Hōkiboshi</a>
-                </div>
-         </div>
-    <div class="buttonencasing">
-        <button onclick="myFunction(6)" class="dropbtn">Religion</button>
-            <div id="myDropdown6" class="dropdown-content">
-                <a href="nimira.html">Nimira <strong>[Moon]</strong></a>
-                <a href="pyrrhus.html">Pyrrhus <strong>[Sun]</strong></a>
-                <a href="nivalis.html">Nivalis <strong>[Winter]</strong></a>
-                <a href="aurelia.html">Aurelia <strong>[Autumn]</strong></a>
-                <a href="torroavos.html">Torravos <strong>[Summer]</strong></a>
-                <a href="isaiwen.html">Isaiwen <strong>[Spring]</strong></a>
-            </div>   
-    </div>
     </div>
 </div>
-
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-let closeDropdown = function() {
-
-}
-function myFunction(num) {
-  closeDropdown();
-  let el = document.getElementById("myDropdown" + num);  
-  if (el) {
-    el.classList.toggle("show");
-    closeDropdown = function() {
-        el.classList.remove("show");
-    }
-  } else {
-    closeDropdown = function() {
-    } 
-  }
-}
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
