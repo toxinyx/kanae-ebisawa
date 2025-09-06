@@ -43,7 +43,7 @@
 }
 
 .titlecard {
-  background: linear-gradient(-70deg, rgba(35, 71, 51, 0.9) 50%, rgba(39, 46, 42, 0.9) 50%);
+  background-color: linear-gradient(-70deg, rgb(29 30 28 / 90%) 50%, rgb(23 49 28 / 90%) 50%);
     padding: 10px 10px 10px 10px;
     text-align: center;
     background-repeat: no-repeat;
