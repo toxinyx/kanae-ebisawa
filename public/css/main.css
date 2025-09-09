@@ -60,7 +60,6 @@ margin-top: 2%;
 width: 400px;
 transform: rotate(7deg);
 }
-
 .journal-title {
     margin-top: 24%;
 margin-left: 27%;
@@ -68,7 +67,6 @@ width: 46%;
 text-align: center;
 transform: rotate(-10deg);
 }
-
 .turn-page {
     background: white;
 width: 9%;
@@ -78,7 +76,20 @@ position: absolute;
 margin-top: 35.5%;
 margin-left: 41%;
 }
-
 .btn {
     margin-top:0%;
+}
+
+.journal {
+    background-image: url('https://i.ibb.co/M5SRfV8g/n-DVwg2-S-Photoroom.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height:550px;
+}
+.photo1 {
+    background-image: url('https://i.ibb.co/NgDGcmxL/IMG-1590.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    width: 50%;
 }
