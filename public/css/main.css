@@ -82,22 +82,20 @@ margin-left: 41%;
 
 .journal {
     background-image: url('https://i.ibb.co/M5SRfV8g/n-DVwg2-S-Photoroom.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    height:550px;
-}
-.photo1casing {
-    margin-top: 5%;
-    margin-left: 5%;
+background-position: center;
+background-repeat: no-repeat;
+height: 650px;
+width: 900px;
+background-size: 100%;
 }
 .photo1 {
-    position: absolute;
+  position: absolute;
 background-image: url('https://i.ibb.co/NgDGcmxL/IMG-1590.png');
 background-repeat: no-repeat;
 background-position: center;
 background-size: 100%;
-height: 48%;
-width: 16%;
-    top: 396px;
-left: 471px;
+height: 50%;
+width: 20%;
+top: 484px;
+left: 405px;
 }
