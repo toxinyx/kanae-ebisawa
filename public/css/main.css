@@ -43,5 +43,8 @@
 }
 
 .front {
+    height: 550px;
     background-image: url('https://i.ibb.co/6cMbFHgQ/favpng-75c2197ea1eaf25cfae4286da80f4de9.png" alt="favpng-75c2197ea1eaf25cfae4286da80f4de9');
+    background-repeat: no-repeat;
+    background-position: center;
 }
