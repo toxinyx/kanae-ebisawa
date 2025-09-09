@@ -88,9 +88,12 @@ margin-left: 41%;
 }
 .photo1 {
     position: absolute;
-    background-image: url('https://i.ibb.co/NgDGcmxL/IMG-1590.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100px;
-    width: 50%;
+background-image: url('https://i.ibb.co/NgDGcmxL/IMG-1590.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: 33%;
+height: 48%;
+width: 50%;
+margin-top: -13%;
+margin-left: -3%;
 }
