@@ -67,13 +67,8 @@
     line-height: 15px;
 }
 
-.boxxed {
-    background-color: #decfb7;
-    margin-top: 30px;
-    padding: 10px 10px 10px 10px;
-    text-align: center;
-    border: 2px solid #c48d2e;
-    box-shadow: 5px 10px 18px #000000;
+.front {
+    background-image: url('/kanae-ebisawa/images/favpng_75c2197ea1eaf25cfae4286da80f4de9.png');
 }
 .boxxed-title {
     font-family: "monolineregular", serif;
