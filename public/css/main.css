@@ -68,3 +68,10 @@ width: 46%;
 text-align: center;
 transform: rotate(-10deg);
 }
+
+.turn-page {
+    background: white;
+}
+
+.btn {
+}
