@@ -226,7 +226,7 @@ background-color: transparent;
 width: 245px;
 height: 250px;
 perspective: 1000px;
-transform: rotate(8deg);
+transform: rotate(-8deg);
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
 .flip-card-inner {
