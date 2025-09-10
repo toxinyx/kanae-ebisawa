@@ -35,6 +35,24 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Birthlong';
+    src: url('Birthlong.woff2') format('woff2'),
+        url('Birthlong.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cute Notes';
+    src: url('CuteNotes.woff2') format('woff2'),
+        url('CuteNotes.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* yessir */
 .container {
     margin: auto;
@@ -91,6 +109,7 @@ background-size: 100%;
     z-index: 5;
 }
 .text {
+    font-family: 'Birthlong', serif;
     margin-top: 10%
 }
 .left {
