@@ -199,10 +199,10 @@ transform: rotate(-10deg);
 .stickynotet2 {
 font-family: 'Birthlong', serif;
 font-size: 18px;
-transform: rotate(5deg);
-width: 60%;
-margin-left: 21%;
-margin-top: 40%;
+transform: rotate(2deg);
+width: 47%;
+margin-left: 28%;
+margin-top: 10%;
 }  
 
 .flip-card {
