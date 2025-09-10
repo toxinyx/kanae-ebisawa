@@ -196,7 +196,7 @@ left: 986px;
 z-index: 4;
 transform: rotate(-10deg);
 }
-stickynotet2 {
+.stickynotet2 {
 font-family: 'Birthlong', serif;
 font-size: 18px;
 transform: rotate(5deg);
