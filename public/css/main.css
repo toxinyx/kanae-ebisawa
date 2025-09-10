@@ -186,15 +186,16 @@ left: 316px;
 }
 .stickynote2 {
     position: absolute;
-    background-image: url('https://i.ibb.co/2YWL7jvc/image-Photoroom-2.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 86%;
-    height: 40%;
-    transform: rotate(1deg);
-    z-index: 4;
-top: 229px;
-left: 48px;
+background-image: url('https://i.ibb.co/2YWL7jvc/image-Photoroom-2.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100%;
+height: 53%;
+width: 23%;
+top: 424px;
+left: 1004px;
+z-index: 4;
+transform: rotate(5deg);
 }
 .stickynote3 {
     position: absolute;
