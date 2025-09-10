@@ -193,8 +193,6 @@ transform: rotate(5deg);
     background-image: url('https://i.ibb.co/1Yqw5DVK/image-Photoroom-3.png');
 }
 
-
-
 .flip-card {
   background-color: transparent;
 width: 250px;
@@ -207,7 +205,18 @@ top: 451px;
 left: 252px;
 z-index: 10;
 }
-
+.flip-card2 {
+position: absolute;
+top: 590px;
+left: 416px;
+z-index: 9;
+background-color: transparent;
+width: 250px;
+height: 320px;
+perspective: 1000px;
+transform: rotate(8deg);
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -217,11 +226,9 @@ z-index: 10;
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
-
 .flip-card:active .flip-card-inner {
   transform: rotateY(180deg);
 }
-
 .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
@@ -229,12 +236,10 @@ z-index: 10;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-
 .flip-card-front {
   background-color: #bbb;
   color: black;
 }
-
 .flip-card-back {
   background-color: #2980b9;
   color: white;
