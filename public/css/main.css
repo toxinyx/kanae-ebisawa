@@ -109,8 +109,9 @@ background-size: 100%;
     z-index: 5;
 }
 .text {
-    font-family: 'Birthlong', serif;
-    margin-top: 10%
+    position: relative;
+font-family: 'Birthlong', serif;
+top: 30px;
 }
 .left {
     width: 375px;
