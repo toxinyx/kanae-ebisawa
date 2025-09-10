@@ -90,6 +90,10 @@ width: 900px;
 background-size: 100%;
     z-index: 5;
 }
+.left {
+    width: 375px;
+margin-left: 8%;
+}
 .photo1 {
   position: absolute;
 background-image: url('https://i.ibb.co/NgDGcmxL/IMG-1590.png');
@@ -102,7 +106,6 @@ top: 441px;
 left: 345px;
     z-index: 10;
 }
-
 .photo2 {
   position: absolute;
 background-image: url('https://i.ibb.co/gZmx9ZfD/IMG-1592.png');
@@ -115,7 +118,6 @@ top: 472px;
 left: 425px;
     z-index: 9;
 }
-
 .photo3 {
   position: absolute;
 background-image: url('https://i.ibb.co/DP3VYNJg/IMG-1594.png');
