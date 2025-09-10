@@ -21,8 +21,17 @@ title: page1
       </p>
     </div>
   </div>
-     <div id="photo1" class="photo1"></div>
-     <div id="photo1back" class="photo1back"></div>
+  <div class="flip-card" id="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="https://i.ibb.co/mVyg7xYC/IMG-1604.png" style="width:100%;height:100%;">
+      </div>
+      <div class="flip-card-back">
+        <img src="https://i.ibb.co/QFNthsMJ/IMG-1602.png" style="width:100%;height:100%;">
+      </div>
+    </div>
+  </div>
+  
   <div id="photo2" class="photo2">
   </div>
   <div class="tornpaper">
@@ -49,23 +58,10 @@ title: page1
 </div>
 
 
-
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <img src="https://i.ibb.co/mVyg7xYC/IMG-1604.png" style="width:100%;height:100%;">
-    </div>
-    <div class="flip-card-back">
-      <<img src="https://i.ibb.co/QFNthsMJ/IMG-1602.png" style="width:100%;height:100%;">
-    </div>
-  </div>
-</div>
-
-
 <script>
 //Make the DIV element draggagle:
-const elements = document.querySelectorAll('.photo1');
-dragElement(document.getElementById("photo1"));
+const elements = document.querySelectorAll('.flip-card');
+dragElement(document.getElementById("flip-card"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
