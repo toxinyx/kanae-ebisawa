@@ -129,7 +129,6 @@ width: 20%;
 top: 424px;
 left: 200px;
     z-index: 10;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .photo2 {
   position: absolute;
@@ -142,7 +141,6 @@ width: 20%;
 top: 468px;
 left: 323px;
     z-index: 9;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .photo3 {
   position: absolute;
@@ -156,7 +154,6 @@ top: 137px;
 left: 1001px;
     transform: rotate(15deg);
     z-index: 4;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .stickynote {
@@ -186,5 +183,4 @@ margin-top: 0%;
     z-index: 8;
 top: -35px;
 left: 316px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
