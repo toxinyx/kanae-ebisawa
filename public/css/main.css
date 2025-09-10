@@ -81,6 +81,7 @@ margin-left: 41%;
 }
 
 .journal {
+    position:relative;
     background-image: url('https://i.ibb.co/M5SRfV8g/n-DVwg2-S-Photoroom.png');
 background-position: center;
 background-repeat: no-repeat;
