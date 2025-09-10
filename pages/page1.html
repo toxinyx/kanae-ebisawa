@@ -31,6 +31,7 @@ title: page1
 
 <script>
 //Make the DIV element draggagle:
+const elements = document.querySelectorAll('.photo1');
 dragElement(document.getElementById("photo1"));
 
 function dragElement(elmnt) {
@@ -73,10 +74,24 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
+
+  elements.forEach(el => {
+  // Add a click event listener to each element
+  el.addEventListener('click', function() {
+    // Reset all boxes to the base z-index first
+    elements.forEach(otherEl => {
+      otherEl.style.zIndex = '1';
+    });
+
+    // Set the clicked box to a higher z-index to bring it forward
+    this.style.zIndex = '999';
+  });
+});
 </script>
 <script>
 //Make the DIV element draggagle:
-dragElement(document.getElementById("photo2"));
+const elements = document.querySelectorAll('.photo2');
+  dragElement(document.getElementById("photo2"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -118,10 +133,24 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
+
+  elements.forEach(el => {
+  // Add a click event listener to each element
+  el.addEventListener('click', function() {
+    // Reset all boxes to the base z-index first
+    elements.forEach(otherEl => {
+      otherEl.style.zIndex = '1';
+    });
+
+    // Set the clicked box to a higher z-index to bring it forward
+    this.style.zIndex = '999';
+  });
+});
 </script>
 <script>
 //Make the DIV element draggagle:
-dragElement(document.getElementById("photo3"));
+const elements = document.querySelectorAll('.photo3');
+  dragElement(document.getElementById("photo3"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -163,10 +192,24 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
+
+  elements.forEach(el => {
+  // Add a click event listener to each element
+  el.addEventListener('click', function() {
+    // Reset all boxes to the base z-index first
+    elements.forEach(otherEl => {
+      otherEl.style.zIndex = '1';
+    });
+
+    // Set the clicked box to a higher z-index to bring it forward
+    this.style.zIndex = '999';
+  });
+});
 </script>
 <script>
 //Make the DIV element draggagle:
-dragElement(document.getElementById("stickynote1"));
+const elements = document.querySelectorAll('.stickynote1');
+  dragElement(document.getElementById("stickynote1"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -208,10 +251,24 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
+
+  elements.forEach(el => {
+  // Add a click event listener to each element
+  el.addEventListener('click', function() {
+    // Reset all boxes to the base z-index first
+    elements.forEach(otherEl => {
+      otherEl.style.zIndex = '1';
+    });
+
+    // Set the clicked box to a higher z-index to bring it forward
+    this.style.zIndex = '999';
+  });
+});
 </script>
 <script>
 //Make the DIV element draggagle:
-dragElement(document.getElementById("stickynote2"));
+const elements = document.querySelectorAll('.stickynote2');
+  dragElement(document.getElementById("stickynote2"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -253,10 +310,24 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
+
+  elements.forEach(el => {
+  // Add a click event listener to each element
+  el.addEventListener('click', function() {
+    // Reset all boxes to the base z-index first
+    elements.forEach(otherEl => {
+      otherEl.style.zIndex = '1';
+    });
+
+    // Set the clicked box to a higher z-index to bring it forward
+    this.style.zIndex = '999';
+  });
+});
 </script>
 <script>
 //Make the DIV element draggagle:
-dragElement(document.getElementById("stickynote3"));
+const elements = document.querySelectorAll('.stickynote3');
+  dragElement(document.getElementById("stickynote3"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -298,5 +369,18 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
+
+  elements.forEach(el => {
+  // Add a click event listener to each element
+  el.addEventListener('click', function() {
+    // Reset all boxes to the base z-index first
+    elements.forEach(otherEl => {
+      otherEl.style.zIndex = '1';
+    });
+
+    // Set the clicked box to a higher z-index to bring it forward
+    this.style.zIndex = '999';
+  });
+});
 </script>
 
