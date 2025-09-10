@@ -142,7 +142,7 @@ width: 50%;
 margin-left: 32%;
 margin-top: 27%;
 }    
-.stickynotet2 {
+.stickynotet {
 font-family: 'Birthlong', serif;
 font-size: 18px;
 transform: rotate(-15deg);
@@ -162,6 +162,14 @@ margin-top: 0%;
 top: -35px;
 left: 316px;
 }
+.stickynotet1 {
+font-family: 'Birthlong', serif;
+font-size: 18px;
+transform: rotate(-15deg);
+width: 50%;
+margin-left: 30%;
+margin-top: 0%;
+}    
 .stickynote2 {
     position: absolute;
 background-image: url('https://i.ibb.co/2YWL7jvc/image-Photoroom-2.png');
