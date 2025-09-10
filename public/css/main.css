@@ -185,14 +185,16 @@ top: -35px;
 left: 316px;
 }
 .stickynote2 {
-    position:absolute;
-    background-image: url ('https://i.ibb.co/2YWL7jvc/image-Photoroom-2.png');
+    position: absolute;
+    background-image: url('https://i.ibb.co/2YWL7jvc/image-Photoroom-2.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 86%;
     height: 40%;
     transform: rotate(1deg);
     z-index: 4;
+    top: 28px;
+left: 332px;
 }
 .stickynote3 {
     position: absolute;
