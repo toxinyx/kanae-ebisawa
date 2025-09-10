@@ -119,18 +119,6 @@ top: 30px;
 margin-left: 8%;
 }
 
-.photo1 {
-position: absolute;
-background-image: url('https://i.ibb.co/mVyg7xYC/IMG-1604.png');
-background-repeat: no-repeat;
-background-position: center;
-background-size: 100%;
-transform: rotate(-8deg);
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
-top: 451px;
-left: 252px;
-z-index: 10;
-}
 .photo2 {
 position: absolute;
 background-image: url('https://i.ibb.co/jkvLDQVZ/IMG-1601.png');
@@ -230,7 +218,7 @@ z-index: 10;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.flip-card:hover .flip-card-inner {
+.flip-card:active .flip-card-inner {
   transform: rotateY(180deg);
 }
 
