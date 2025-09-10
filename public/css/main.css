@@ -155,3 +155,14 @@ left: 1001px;
     transform: rotate(15deg);
     z-index: 4;
 }
+
+.stickynote1 {
+    position: absolute;
+    background-image: url('https://i.ibb.co/7N41yWSv/image-Photoroom.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 50%;
+    transform: rotate(10deg);
+    z-index: 8;
+}
