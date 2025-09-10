@@ -156,6 +156,11 @@ left: 1001px;
     z-index: 4;
 }
 
+.stickynote {
+    font-family: 'Birthlong', serif;
+    font-size: 18px;
+    width: 50%;
+}    
 .stickynote1 {
     position: absolute;
     background-image: url('https://i.ibb.co/7N41yWSv/image-Photoroom.png');
