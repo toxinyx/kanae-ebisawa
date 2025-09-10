@@ -196,6 +196,14 @@ left: 986px;
 z-index: 4;
 transform: rotate(-10deg);
 }
+stickynotet2 {
+font-family: 'Birthlong', serif;
+font-size: 18px;
+transform: rotate(5deg);
+width: 60%;
+margin-left: 21%;
+margin-top: 40%;
+}  
 
 .flip-card {
   background-color: transparent;
