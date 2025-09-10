@@ -90,6 +90,9 @@ width: 900px;
 background-size: 100%;
     z-index: 5;
 }
+.text {
+    margin-top: 10%
+}
 .left {
     width: 375px;
 margin-left: 8%;
