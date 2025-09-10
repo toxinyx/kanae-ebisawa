@@ -118,6 +118,10 @@ top: 30px;
     width: 375px;
 margin-left: 8%;
 }
+.right {
+    background-image: url('https://png.pngtree.com/element_our/20190530/ourmid/pngtree-wrinkled-road-image_1263054.jpg');
+    background-repeat: no-repeat;
+}
 
 .photo3 {
 position: absolute;
