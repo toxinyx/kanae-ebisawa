@@ -162,7 +162,9 @@ left: 1001px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    height: 50%;
-    transform: rotate(10deg);
+    height: 35%;
+    transform: rotate(5deg);
     z-index: 8;
+top: 3px;
+left: 323px;
 }
