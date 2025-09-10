@@ -121,7 +121,7 @@ margin-left: 8%;
 
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
-.photo1:hover .photo1back {
+.flip-container:hover .flip-container {
   transform: rotateY(180deg);
 }
 /* Position the front and back side */
