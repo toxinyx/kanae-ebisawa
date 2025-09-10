@@ -165,10 +165,10 @@ left: 316px;
 .stickynotet1 {
 font-family: 'Birthlong', serif;
 font-size: 18px;
-transform: rotate(-15deg);
-width: 50%;
-margin-left: 30%;
-margin-top: 0%;
+transform: rotate(5deg);
+width: 60%;
+margin-left: 21%;
+margin-top: 40%;
 }    
 .stickynote2 {
     position: absolute;
