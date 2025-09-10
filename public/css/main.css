@@ -209,9 +209,15 @@ transform: rotate(5deg);
 
 .flip-card {
   background-color: transparent;
-  width: 15%;
-  height: 27%;
-  perspective: 1000px;
+width: 250px;
+height: 320px;
+perspective: 1000px;
+position: absolute;
+transform: rotate(8deg);
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+top: 451px;
+left: 252px;
+z-index: 10;
 }
 
 .flip-card-inner {
