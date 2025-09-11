@@ -282,6 +282,14 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
   transform: rotateY(180deg);
 }
 
+tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th {
+    color: #000000;
+text-align: left;
+}
+td, th {
+    padding: 5PX;
+border: 0PX;
+}
 th {
   border-right:3px solid black;
   text-align: left;
