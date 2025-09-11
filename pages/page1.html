@@ -98,11 +98,11 @@ function dragElement(elmnt) {
       <p class="left">By the time the sun was at the peak, I was already exhausted. Not much to be done, considering there was still wood to cut and a floor to sweep.</p>
       <p class="left" style="text-align:right;">– Kanae <3</p>
     </div>
-    <div id="papermove" class="papermove">
-    <div class="paperclip" style="position: absolute;">
+  
+    <div class="right">
+      <div class="paperclip" style="position: absolute;">
       <img src="https://i.ibb.co/nshq5G6C/image-Photoroom-4.png" style="position: absolute; top: -675px; left: 600px; z-index: 12; height: 95px; transform: rotate(3deg);">
     </div>
-    <div class="right">
         <p class="rightside" style="font-family: 'Cute Notes', serif; font-size: 32px; text-align: center; padding-top: 10px; font-weight: bold;">Kanae Ebisawa</p>
         <p class="rightside" style="font-family: 'Birthlong', serif; font-size: 20px; text-align: center; margin-top: -6%;">19 years old .. She/Her .. Biromantic</p>
         <table style="border: 0px;">
@@ -133,7 +133,6 @@ function dragElement(elmnt) {
 </table>
       <p class="rightside" style="font-family: 'Birthlong', serif; font-size: 15px;">A girl who doesn't get much time to herself. Left to herself at a young age, taking care of her little brother has been no easy feat. Some say she grew up to fast, while others say that she handles herself perfectly. How much of that perfection is a facade, however, is up for debate.</p>
     </div>
-  </div>
   </div>
   </div>
   <div class="flip-card" id="flip-card">
@@ -546,8 +545,8 @@ function dragElement(elmnt) {
 </script>
 <script>
 //Make the DIV element draggagle:
-const elements7 = document.querySelectorAll('.papermove');
-  dragElement(document.getElementById("papermove"));
+const elements7 = document.querySelectorAll('.right');
+  dragElement(document.getElementById("right"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
