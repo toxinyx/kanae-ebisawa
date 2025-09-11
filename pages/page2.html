@@ -1,0 +1,104 @@
+---
+layout: default
+title: page2
+---
+
+<div id="music-player" class="music-player" style="position:absolute; top: 31px; left: 44px; z-index: 7; transform: rotate(-10deg);">
+  <img src="https://i.ibb.co/LDNSK43x/IMG-1624.png" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39); border-radius: 30px; height: 400px; width: 200px;">
+
+  <audio id="song1">
+  <source src="../media/here comes a thought cove....mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+
+  <button onclick="playAudio()" style="position: absolute;margin-left: -65%;margin-top: 130%;"><i class="fa-solid fa-play"></i></button><button onclick="pauseAudio()" style="margin-left: -47%;position: absolute;margin-top: 130%;"><i class="fa-solid fa-pause"></i></button>
+
+  <script>
+    var audio = document.getElementById("song1");
+    audio.volume = 0.3;
+
+    function playAudio() {
+      audio.play();
+    }
+  </script>
+  <script>
+    var audio = document.getElementById("song1");
+
+    function pauseAudio() {
+      audio.pause();
+    }
+  </script>
+  <script>
+//Make the DIV element draggagle:
+  dragElement(document.getElementById("music-player"));
+    const elementss1 = document.querySelectorAll('.music-player');
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+    /* if present, the header is where you move the DIV from:*/
+    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+  } else {
+    /* otherwise, move the DIV from anywhere inside the DIV:*/
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    /* stop moving when mouse button is released:*/
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+    elementss1.forEach(el => {
+  // Add a click event listener to each element
+  el.addEventListener('click', function() {
+    // Reset all boxes to the base z-index first
+    elementss1.forEach(otherEl => {
+      otherEl.style.zIndex = '1';
+    });
+
+    // Set the clicked box to a higher z-index to bring it forward
+    this.style.zIndex = '999';
+  });
+});
+</script>
+</div>
+
+
+
+<div class="container">
+  <div class="journal">
+    <div class="text">
+      <p class="left">
+      Another long day, nothing much was different. By the time I woke up, mama was already gone. Pa didn’t even come home. They work so hard, all the time; I rarely see them, to no one’s surprise. Sometimes I… just really wish we could sit down and talk. There’s just never any time.</p>
+      <p class="left">It’s always left to me to keep the house in check and look after little Kenta. Not that I’m complaining, of course, I adore him, but… when was the last time I really had time for me? He followed me everywhere today. Kept tugging on my sleeve and asking why the beams of our house creak when the wind blows. I told him that it’s because the wood is alive- that it breathes with us. He… liked that answer, I think. At least he seemed to.</p>
+      <p class="left">After he finished breakfast, we went outside to tighten the ropes by the shed. My hands are still stinging from having to tighten them so much, but if I don't, the rain will push the wood loose; I really need pa to get round to fixing that. I might end up having to do it myself, I guess. Kenta tried to help, but the hammer was too heavy for him. He’d giggle everytime he dropped it; I laughed too, but part of me was worried he’d end up smashing his foot.</p>
+      <p class="left">By the time the sun was at the peak, I was already exhausted. Not much to be done, considering there was still wood to cut and a floor to sweep.</p>
+      <p class="left" style="text-align:right;">– Kanae <3</p>
+    </div>
+  </div>
+  </div>
