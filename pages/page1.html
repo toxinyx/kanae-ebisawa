@@ -3,8 +3,23 @@ layout: default
 title: page1
 ---
 
-<div class="music-player">
+<div class="music-player" style="position:absolute;">
   <img src="https://i.ibb.co/0pMNr05c/IMG-1622.png">
+
+  <audio id="myAudio">
+  <source src="media/here comes a thought cove....mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+
+  <button onclick="playAudio()"><i class="fa-solid fa-play"></i></button>
+
+  <script>
+    var audio = document.getElementById("myAudio");
+
+    function playAudio() {
+      audio.play();
+    }
+  </script>
 </div>
 
 <div class="container">
