@@ -297,9 +297,13 @@ font-family: 'Birthlong', serif;
 }
 
 .turn-page-button {
-    position: absolute;
-    z-index: 40;
-    background: white;
+   z-index: 40;
+width: 18%;
+padding-left: 5px;
+text-align: center;
+font-size: 25px;
+margin-left: 55%;
+margin-top: 1%;
 }
 .turn-page-btn {
     font-family: 'Cute Notes', serif;
