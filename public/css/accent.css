@@ -12,6 +12,10 @@ em {
   font-style: italic;
 }
 
+mark {
+  background-color: #9E3987;
+}
+
 /* Tables */
 table {
   margin-bottom: 1rem;
