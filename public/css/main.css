@@ -295,3 +295,10 @@ td {
 padding-left: 15px;
 font-family: 'Birthlong', serif;
 }
+
+.turn-page-button {
+    position: absolute;
+}
+.turn-page-btn {
+    font-family: 'Cute Notes', serif;
+}
