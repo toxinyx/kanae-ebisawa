@@ -298,6 +298,8 @@ font-family: 'Birthlong', serif;
 
 .turn-page-button {
     position: absolute;
+    z-index: 40;
+    background: white;
 }
 .turn-page-btn {
     font-family: 'Cute Notes', serif;
