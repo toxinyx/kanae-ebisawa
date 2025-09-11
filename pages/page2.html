@@ -32,7 +32,6 @@ title: page2
 //Make the DIV element draggagle:
   dragElement(document.getElementById("music-player"));
     const elementss1 = document.querySelectorAll('.music-player');
-
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
   if (document.getElementById(elmnt.id + "header")) {
@@ -42,7 +41,6 @@ function dragElement(elmnt) {
     /* otherwise, move the DIV from anywhere inside the DIV:*/
     elmnt.onmousedown = dragMouseDown;
   }
-
   function dragMouseDown(e) {
     e = e || window.event;
     e.preventDefault();
@@ -53,7 +51,6 @@ function dragElement(elmnt) {
     // call a function whenever the cursor moves:
     document.onmousemove = elementDrag;
   }
-
   function elementDrag(e) {
     e = e || window.event;
     e.preventDefault();
@@ -66,7 +63,6 @@ function dragElement(elmnt) {
     elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
     elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
   }
-
   function closeDragElement() {
     /* stop moving when mouse button is released:*/
     document.onmouseup = null;
@@ -80,7 +76,6 @@ function dragElement(elmnt) {
     elementss1.forEach(otherEl => {
       otherEl.style.zIndex = '1';
     });
-
     // Set the clicked box to a higher z-index to bring it forward
     this.style.zIndex = '999';
   });
@@ -101,4 +96,11 @@ function dragElement(elmnt) {
       <p class="left" style="text-align:right;">– Kanae <3</p>
     </div>
   </div>
-  </div>
+</div>
+<div class="go-back-button">
+  <a class="turn-page-btn" href="/kanae-ebisawa/pages/page1.html">...Previous Page</p>
+</div>
+<div class="turn-page-button">
+  <a class="turn-page-btn" href="/kanae-ebisawa/pages/page3.html">Next Page...</p>
+</div>
+  
